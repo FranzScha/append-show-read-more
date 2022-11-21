@@ -1,10 +1,10 @@
 const toggle = document.querySelectorAll(".toggleMore");
-const iconSwitch = document.querySelectorAll(".switch");
-const displayContent = document.querySelectorAll(".show-more-content");
+const iconSwitch = document.querySelectorAll(".btn__switch");
+const displayContent = document.querySelectorAll(".service__show-more-content");
 
-const fadeEffect = document.querySelector(".target");
-const fadeEffect2 = document.querySelector(".targe-1");
-const fadeEffect3 = document.querySelector(".targe-2");
+const fadeEffect = document.querySelector(".target__animation");
+const fadeEffect2 = document.querySelector(".target__animation-2");
+const fadeEffect3 = document.querySelector(".target__animation-3");
 
 let isIconActive = false;
 
